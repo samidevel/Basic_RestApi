@@ -55,8 +55,12 @@ DJANGO_APPS = (
 
 LOCAL_APPS = (
     'applications.users',
+    'applications.persona',
+    'rest_framework',
 )
-THIRD_PARTY_APPS = ()
+THIRD_PARTY_APPS = (
+    
+    )
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRD_PARTY_APPS
 
 
